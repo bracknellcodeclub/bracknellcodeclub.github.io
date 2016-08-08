@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is about code club
+These are the code club staff
