@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Staff
+permalink: /staff/
 ---
 
 These are the code club staff
