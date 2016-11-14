@@ -4,20 +4,69 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Blog</h1>
+  <div class="jumbotron">
+    <div class="container">
+      <img src="{{ site.baseurl }}/assets/logo.png" title="Code Club Bracknell Forest Logo" alt="Logo" >
+      <h1>Bracknell Forest Code Club</h1>
+      <p>The home for Code Clubs run in the network of Bracknell Forest Libraries</p>
+    </div>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<div class="highlight-primary">
+  <div class="container">
+    <h2>How Code Club Works</h2>
+    <p>Our enthuastic volunteers run free weekly code clubs at libraries across the Bracknell Forest area, for children aged 9-11.</p>
+  </div>
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="details">
+  <div class="container">
+    <p>Code Clubs give all children the opportunity to learn to code, no matter who they are or where they come from.</p>
+    <p>Each week our voluteers set a coding puzzle for our children to complete. The volunteers are on hand to help out when the children run into problems.</p>
+    <p>Projects are completed in a number of different technologies, including Scratch, HTML and Python.</p>
+    <p>The video below is provided by Code Club, and gives you an idea of how the club operates.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/N3LIk1fRmC8" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<div class="highlight-secondary">
+  <div class="container">
+    <h2>Locations</h2>
+    <p>The code clubs are currently run at the following locations:</p>
+    <ul>
+      <li>Great Hollands Library, Saturdays - 9.30am - 10.30am</li>
+      <li>Bracknell Central Libray</li>
+    </ul>
+    <p>More details about the libraries, including opening time can be found on the <a href="http://www.bracknell-forest.gov.uk/librariesgeneralinformation">Bracknell Forest Council website</a></p>
+  </div>
+</div>
+
+<div class="details">
+  <div class="container">
+    <h2>Projects</h2>
+    <p>The children work on small projects, starting with Scratch in the first two terms, followed by two terms of HTML and CSS, and finishing with Python.</p>
+    <p>More details about the projects the children have completed can be found in our <a href="{{ "/projects" | prepend: site.baseurl }}">Projects</a> pages</p>
+  </div>
+</div>
+
+<div class="highlight-primary">
+  <div class="container">
+    <h2>About Code Club</h2>
+    <p><a href="https://www.codeclub.org.uk/">Code Club</a> is a nationwide network of volunteer-led after school coding clubs for children aged 9-11</p>
+
+    <h3>Code Club Mission</h3>
+    <p>To put a Code Club in every community in the world.</p>
+
+    <h3>Code Club Vision</h3>
+    <p>To give every child the skills, confidence and opportunity to change their world.</p>
+
+    <h3>Code Club Values</h3>
+    <ul>
+      <li>We believe in working and learning together</li>
+      <li>We inspire discovery and invention through play</li>
+      <li>We believe in the transformational power of programming</li>
+    </ul>
+  </div>
+</div>
 
 </div>

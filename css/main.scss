@@ -11,3 +11,34 @@ $spacing-unit:  30px;
         "layout",
         "syntax-highlighting"
 ;
+
+.jumbotron {
+  background-color: white;
+}
+
+.content {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.highlight-primary {
+  background-color: #393;
+  color: white;
+  margin-bottom: 20px;
+  a {
+    color: white;
+  }
+}
+
+.highlight-secondary {
+  color: white;
+  background-color: #5290d2;
+  a {
+    color: white;
+  }
+}
+
+.details {
+  margin-bottom: 20px;
+}
