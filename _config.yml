@@ -8,7 +8,7 @@
 # Site settings
 title: Bracknell Code Club
 email: admin@bracknellcodeclub.org.uk
-description: >  
+description: >
   Bracknell Code Club is a programming club aimed at 9-11 year olds living
   in the Bracknell Forest Council catchment area. Weekly sessions are held
   at local libraries, teaching children to program using Scratch and Python.
@@ -19,3 +19,4 @@ url: "http://www.bracknellcodeclub.org.uk"
 
 # Build settings
 markdown: kramdown
+permalink: /:categories/:title
