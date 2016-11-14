@@ -20,6 +20,7 @@ $spacing-unit:  30px;
   a {
     text-decoration: underline;
   }
+  font-size: 1.2em;
 }
 
 .highlight-primary {
@@ -37,6 +38,11 @@ $spacing-unit:  30px;
   a {
     color: white;
   }
+}
+
+.rounded {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
 }
 
 .details {
