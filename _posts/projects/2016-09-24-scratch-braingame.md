@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Scratch 2.2 - Brain Game"
-date:   2016-09-17 09:30:00 +0100
+date:   2016-09-24 09:30:00 +0100
 categories: scratch term2
 ---
 This week, we’re going to build a maths game. The instructions for the game can be found here:
