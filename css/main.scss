@@ -92,3 +92,46 @@ $spacing-unit:  30px;
   padding: 10px;
   margin: 40px;
 }
+
+ul.activity-checklist > li:before {
+  background: white;
+  border: 2px solid #339933;
+  border-radius: 0.25em;
+  content: ' ';
+  cursor: pointer;
+  display: block;
+  left: -50px;
+  position: absolute;
+  top: 2px;
+  height: 1.313em;
+  width: 1.313em;
+}
+
+ul.activity-checklist > li.activity-done:before {
+  background: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\a         	 width="10px" height="11px" viewBox="0 0 10 11" enable-background="new 0 0 10 11" xml:space="preserve">\a         <g>\a         	<g>\a         		<path fill="%23339933" d="M3.7,11c-0.3,0-0.6-0.2-0.8-0.4L0.2,6.9C-0.1,6.4,0,5.7,0.4,5.3C0.9,5,1.5,5.1,1.9,5.5L3.6,8l4.4-7.5\a         			C8.4,0,9-0.2,9.5,0.2c0.5,0.3,0.6,1,0.3,1.5l-5.2,8.8C4.4,10.8,4.1,11,3.7,11C3.8,11,3.7,11,3.7,11z"/>\a         	</g>\a         </g>\a         </svg>');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul.activity-checklist > li.activity-done {
+  font-style: italic;
+  text-decoration: line-through;
+}
+
+ul.activity-checklist > li {
+  list-style: none;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+ul.activity-checklist {
+  margin-left: 30px;
+}
+
+.extension {
+  background-color: #5290d2;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  margin: 20px 40px 20px 40px;
+}

@@ -11,7 +11,7 @@ permalink: /projects/scratch
   </div>
 
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h2>Term 1</h2>
       <ul>
         {% for post in site.posts reversed %}
@@ -21,11 +21,21 @@ permalink: /projects/scratch
         {% endfor %}
       </ul>
     </div>
-    <div class="col-md-6">
+    <div class="col-md-4">
       <h2>Term 2</h2>
       <ul>
         {% for post in site.posts reversed %}
           {% if post.categories contains 'scratch' and post.categories contains 'term2' %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <h2>Additional Projects</h2>
+      <ul>
+        {% for post in site.posts reversed %}
+          {% if post.categories contains 'scratch' and post.categories contains 'opendays' %}
           <li><a href="{{ post.url }}">{{ post.title }}</a></li>
           {% endif %}
         {% endfor %}
