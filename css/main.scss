@@ -23,6 +23,10 @@ $spacing-unit:  30px;
   font-size: 1.2em;
 }
 
+.center {
+  text-align: center;
+}
+
 .highlight-primary {
   background-color: #393;
   color: white;
@@ -55,6 +59,14 @@ $spacing-unit:  30px;
   border-radius: 10px;
   color: white;
   text-align: center;
+  a {
+    text-decoration: none;
+    color: white;
+
+    p {
+      text-decoration: underline;
+    }
+  }
 }
 
 .scratch-projects {
