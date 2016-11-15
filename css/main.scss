@@ -49,31 +49,28 @@ $spacing-unit:  30px;
   margin-bottom: 20px;
 }
 
-.scratch-projects {
-  background-color: #e18932;
+.projects {
   margin: 5px;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
   color: white;
   text-align: center;
+}
+
+.scratch-projects {
+  background-color: #e18932;
 }
 
 .html-projects {
   background-color: #5290d2;
-  margin: 5px;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
 }
 
 .python-projects {
   background-color: #393;
-  margin: 5px;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px;
-  color: white;
-  text-align: center;
+}
+
+.sphero-projects {
+  background-color: #1e94d2;
 }
 
 .intro {
