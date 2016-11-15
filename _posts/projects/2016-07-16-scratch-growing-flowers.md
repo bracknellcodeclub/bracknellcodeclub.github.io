@@ -14,7 +14,7 @@ To get started quickly, you’ll need to use the scratch-pad through the link in
 
 Once you’ve opened the resources scratch-pad, click on the remix button in the top right corner to create your own version of the project.
 
-![sensing example]({{ site.baseurl }}/assets/scratch/1-5_remix.png)
+![remix button]({{ site.baseurl }}/assets/scratch/1-5_remix.png)
 {:.center}
 
 ## Challenges
