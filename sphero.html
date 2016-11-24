@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: /projects/sphero
+---
+
+<h1>Sphero SPRK+ Projects</h1>
+
+  <div class="sphero-projects projects">
+    <img src="{{ site.baseurl }}/assets/sphero.png" alt="sphero logo">
+    <p>These are the sphero SPRK+ projects we've been working on in Code Club.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <ul>
+        {% for post in site.posts reversed %}
+          {% if post.categories contains 'sphero'%}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
